@@ -1,0 +1,71 @@
+EXERCISE 08, NOTES: GITHUB THROUGH COMMAND LINE
+HANNAH DUGDALE
+15 January 2021
+
+FIRST TIME
+# Navigate to your repository you want to link to GitHub through command line then:
+
+git init #initialize a git repository in your folder
+
+echo -e echo -e "Hannah Dugdale<br>\nBioinformatics for Biologists, exercise 08<br>\nhttps://hannahdugdale.wordpress.com<br>\nh.l.dugdale@rug.nl" >> README.md  #Create your README file
+
+git add . #Stage all of the files in your local folder to be uploaded
+
+git status #Check if you are staging the correct file
+
+git commit -m 'first commit' #Commit the files with a message that it is your first commit. May need " on a PC"
+
+git remote add origin https://github.com/HannahDugdale/BfB_exercise_08.git
+#git remote set-url origin https://github.com/HannahDugdale/BfB_exercise_08.git
+
+git push -u origin main
+
+DO NOT MAKE ANY CHANGES TO GITHUB REMOTE BY HAND - IF YOU DO THEN PULL
+IF ABOVE FAILS AT LAST LINE, TRY:
+git push -f origin main
+
+
+IF THAT DOESN'T WORK:
+ls -a #View all your files and repositories
+rm -rf .git/  #delete your local git repository, then repeat the steps at start of list, beginning with git init
+
+
+
+TO MAKE FURTHER CHANGES
+git add . #Stage all of the files in your local folder to be uploaded
+
+git status #Check if you are staging the correct file
+
+git commit -m 'first commit' #Commit the files with a message that it is your first commit. May need " on a PC"
+
+git push -u origin main
+
+
+
+EDITING REDADME.md
+nano README.md
+paste "![RUG logo](https://www.rug.nl/about-ug/practical-matters/huisstijl/huisstijl-basiselementen/images/rugr_logonl_rood_rgb-web.png)
+" to add the RUG logo
+add "# " before name to make it a header, or put * before nad after to be in bold
+
+
+MAKE .GITIGNORE
+echo .DS_Store << .gitignore
+nano .gitignore #You can then add other things you want to ignore, e.g. /DATA/*
+
+
+OTHER CODE
+git remote -v #Am I connected?
+git --version #which git version?
+
+git branch  #Find your local branch name
+git branch -a  #print out all the branches (local as well as remote):
+ 	 remotes/origin/main
+git branch -m master main #rename master branch to main
+ 	 
+git status -uno  #will tell you whether the branch you are tracking is ahead, behind or has diverged. If it says nothing, the local and remote are the same
+
+
+
+
+
