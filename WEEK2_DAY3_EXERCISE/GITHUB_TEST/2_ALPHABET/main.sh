@@ -1,5 +1,5 @@
 #!/bin/bash
-#Master
+#2_Alphabet
 #Purpose: run subordinate code
 #Written by: Hannah Dugdale
 #Date: 12 January 2021

@@ -1,5 +1,5 @@
 #!/bin/bash
-#Step_1
+#Step_2
 #Purpose: Create (sub-)directories and link to data files
 #Written by: Hannah Dugdale
 #Date: 11 January 2021
