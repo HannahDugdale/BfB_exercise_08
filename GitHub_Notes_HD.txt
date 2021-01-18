@@ -34,7 +34,7 @@ rm -rf .git/  #delete your local git repository, then repeat the steps at start 
 TO MAKE FURTHER CHANGES
 git add . #Stage all of the files in your local folder to be uploaded
 
-git status #Check if you are staging the correct file
+git status #Check if you are staging the correct file. If there is a file you don't want to push type 'git restore --staged <FILE>'
 
 git commit -m 'first commit' #Commit the files with a message that it is your first commit. May need " on a PC"
 
