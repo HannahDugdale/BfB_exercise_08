@@ -4,7 +4,7 @@
 #Written by: Hannah Dugdale
 #Date: 12 January 2021
 
-ln -s ../../../Data_Repository/* ../DATA/. #Create a symbolic link (symlink) to your data in your data repository
+ln -s ../../../DATA_REPOSITORY/* ../DATA/. #Create a symbolic link (symlink) to your data in your data repository
 
-cp ../../../Data_Repository/initial_data.txt ../RESULTS/example_data.txt #Copy data text file to results
+cp ../../../DATA_REPOSITORY/initial_data.txt ../RESULTS/example_data.txt #Copy data text file to results
 echo "University of Groningen" >> ../RESULTS/example_data.txt

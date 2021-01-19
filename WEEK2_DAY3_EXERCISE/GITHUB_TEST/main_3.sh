@@ -4,6 +4,6 @@
 #Written by: Hannah Dugdale
 #Date: 12 January 2021
 
-(cd 1_Annotation ; sh main.sh)
-(cd 2_Alphabet ; sh main.sh)
-(cd 3_Numbers ; sh main.sh)
+(cd 1_ANNOTATION ; sh main.sh)
+(cd 2_ALPHABET ; sh main.sh)
+(cd 3_NUMBERS ; sh main.sh)

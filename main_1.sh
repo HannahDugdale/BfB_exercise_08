@@ -5,5 +5,4 @@
 #Date: 12 January 2021
 
 mkdir -p WEEK2_DAY3_EXERCISE/DATA_REPOSITORY
-mkdir -p WEEK2_DAY3_EXERCISE/DATA_REPOSITORY
 echo "Hannah Dugdale" > WEEK2_DAY3_EXERCISE/DATA_REPOSITORY/initial_data.txt #Create your data in your data repository
