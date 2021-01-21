@@ -1,5 +1,5 @@
 #!/bin/bash
-#Step_1
+#Steps 1 to 3
 #Purpose: Create directories and sub-directories. Make a data file
 #Written by: Hannah Dugdale
 #Date: 12 January 2021
