@@ -22,6 +22,8 @@ git push -u origin main
 
 DO NOT MAKE ANY CHANGES TO GITHUB REMOTE BY HAND - IF YOU DO THEN PULL
 IF ABOVE FAILS AT LAST LINE, TRY:
+git pull --no-commit origin #fetches remote content but doesn't merge commit
+git status #check what files differ remotely
 git push -f origin main
 
 
