@@ -1,5 +1,5 @@
 #!/bin/bash
-#1_Annotation
+#Step 9, in 1_ANNOTATION
 #Purpose: run subordinate code
 #Written by: Hannah Dugdale
 #Date: 12 January 2021

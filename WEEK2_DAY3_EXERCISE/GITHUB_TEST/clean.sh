@@ -1,6 +1,6 @@
 #!/bin/bash
-#GitHub_Test clean
-#Purpose: remove DATD and RESULTS sub-directories
+#Bonus, Step 11, in GITHUB_TEST
+#Purpose: remove DATA and RESULTS sub-directories
 #Written by: Hannah Dugdale
 #Date: 12 January 2021
 

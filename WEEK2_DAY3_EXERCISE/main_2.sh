@@ -1,6 +1,6 @@
 #!/bin/bash
-#Step_2
-#Purpose: Create (sub-)directories and link to data files
+#Steps 4-5
+#Purpose: Create (sub-)directories
 #Written by: Hannah Dugdale
 #Date: 11 January 2021
 
